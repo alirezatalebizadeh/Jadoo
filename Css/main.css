@@ -18,33 +18,97 @@
     padding: 0 30px;
 }
 
+/* Start Category */
+
+
+
+.Category {
+    /* background-color: yellow; */
+    position: relative;
+}
+
+/* .icon_bag_category {
+    position: absolute;
+    bottom: 0;
+    left: 24%;
+    z-index: -20;
+} */
+
+.category_cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 20px 0;
+    /* background-color: rgb(255, 225, 0); */
+}
+
+.Category_card {
+    max-width: 250px;
+    text-align: center;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.236);
+}
+
+.card_icon {}
+
+.card_body {
+    text-align: center !important;
+    padding: 0 25px !important;
+    /* background-color: red; */
+}
+
+.Category .body_title {
+    text-align: center !important;
+    margin: 20px 0;
+    color: var(--color-black);
+    font-size: 1.25rem;
+}
+
+.body_subTitle {
+    line-height: 25px;
+}
+
+
+
+
 /* Start Destination */
 
 .main_Destinations {
     margin: 50px 0;
-    /* background-color: red; */
-    text-align: center;
 }
 
 .title {
     color: var(--color-primary);
     font-size: var(--size-text);
+    text-align: center;
+
 }
 
 .sub_title {
     color: var(--color-black);
     font-size: 1.9rem;
     margin: 30px 0;
+    text-align: center;
+
 }
 
 .Destination_cards {
     display: flex;
     align-items: start;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.fa-telegram {
+    margin-right: 10px;
 }
 
 .Destination_card {
-    /* background-color: yellow; */
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0 0 15px .5px rgba(0, 0, 0, 0.307);
@@ -56,14 +120,13 @@
 }
 
 .card_body {
-    /* background-color: blue; */
     text-align: left;
     padding: 20px 0;
     color: var(--color-primary);
     font-size: var(--size-text);
 }
 
-.body_title {
+.main_Destinations .body_title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -269,6 +332,16 @@ Footer {
     .form_container {
         width: auto !important;
     }
+
+    .title {
+        font-size: var(--size-sm-text);
+    }
+
+    .sub_title {
+        font-size: 1.6rem;
+        margin: 25px 0;
+    }
+
 }
 
 @media screen and (max-width:576px) {

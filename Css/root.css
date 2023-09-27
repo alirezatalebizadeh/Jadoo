@@ -14,7 +14,9 @@ a {
     --color-red: #DF6951;
     --color-yellow: #F1A501;
     --size-text: 1rem;
+    --size-sm-text: .9rem;
     --size-title: 1.4rem;
+    --size-sm-title: 1.4rem;
 
 }
 
