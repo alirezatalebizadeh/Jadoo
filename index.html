@@ -9,7 +9,6 @@
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <!-- ! font awsome -->
-    <!-- font AweSome 5 -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -18,6 +17,9 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- ! swiper style  -->
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
 
     <!-- ! custom css -->
     <link rel="stylesheet" href="Css/main.css" />
@@ -541,7 +543,7 @@
         <h3 class="sub_title">Top Destinations</h3>
         <div class="Destination_cards">
           <div class="Destination_card">
-            <img src="./Images/bag-form1.png" class="card_img" alt="location" />
+            <img src="./Images/Rom.png" class="card_img" alt="location" />
             <div class="card_body">
               <p class="body_title">
                 <span> Rome, Italty</span>
@@ -554,10 +556,10 @@
           </div>
 
           <div class="Destination_card">
-            <img src="./Images/bag-form1.png" class="card_img" alt="location" />
+            <img src="./Images/London.png" class="card_img" alt="location" />
             <div class="card_body">
               <p class="body_title">
-                <span> Rome, Italty</span>
+                <span> London, UK </span>
                 <span>$5,42k</span>
               </p>
               <p class="body_time">
@@ -567,11 +569,11 @@
           </div>
 
           <div class="Destination_card">
-            <img src="./Images/bag-form1.png" class="card_img" alt="location" />
+            <img src="./Images/Full.png" class="card_img" alt="location" />
             <div class="card_body">
               <p class="body_title">
-                <span> Rome, Italty</span>
-                <span>$5,42k</span>
+                <span>Full Europe</span>
+                <span>$15,42k</span>
               </p>
               <p class="body_time">
                 <i class="fab fa-telegram"></i> 10 Days Trip
@@ -581,7 +583,32 @@
         </div>
       </div>
 
-      <div class="main_brands_slider"></div>
+      <!-- ! slider -->
+      <div class="main_brands_slider">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./Images/brands/brand1.png" alt="brand" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/brands/brans3.png" alt="brand" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/brands/brand4.png" alt="brand" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/brands/brand5.png" alt="brand" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/brands/brand6.png" alt="brand" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/brands/brand7.png" alt="brand" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
       <!-- !form  -->
       <div class="main_form">
         <!-- !logo -->
@@ -718,8 +745,8 @@
 
         <div class="sotial">
           <div class="sotial_top">
-            <a href="#"
-              ><i class="fab fa-facebook sotial_icon" aria-hidden="true"></i>
+            <a href="#" class="sotial_icon"
+              ><i class="fab fa-facebook" aria-hidden="true"></i>
             </a>
             <span
               ><svg
@@ -988,6 +1015,42 @@
     <!-- !bootstrap -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- ! font awsome  -->
+    <!-- ! swiper  js-->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <!-- !Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        breakpoints: {
+          358: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          450: {
+            slidesPerView: 3,
+            spaceBetween: 20
+          },
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 20
+          },
+          768: {
+            slidesPerView: 5,
+            spaceBetween: 40
+          },
+          1024: {
+            slidesPerView: 6,
+            spaceBetween: 50
+          }
+        }
+      })
+    </script>
+    <script src="./Js/main.js"></script>
   </body>
 </html>
