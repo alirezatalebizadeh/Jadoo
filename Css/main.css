@@ -1,0 +1,92 @@
+@import url('./root.css');
+@import url('./reset.css');
+
+
+
+
+
+Footer {
+    padding: 3rem !important;
+    /* background-color: yellow; */
+
+}
+
+.Footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.Footer_copy {
+    text-align: center;
+    margin-top: 30px;
+    color: var(--color-primary);
+
+}
+
+.brand {}
+
+.brand_title {
+    font-size: 2.8rem;
+    color: var(--color-black);
+}
+
+.text {
+    color: var(--color-primary);
+    font-size: var(--size-text);
+    margin-top: 20px;
+}
+
+.menu {
+    list-style: none;
+    line-height: 25px;
+}
+
+.menu_title {
+    font-size: var(--size-title);
+    color: var(--color-black);
+    margin-bottom: 25px;
+}
+
+.menu_item {}
+
+.menu_link {
+    color: var(--color-primary);
+    font-size: var(--size-text);
+}
+
+.sotial {
+    /* background-color: red; */
+    flex-basis: 200px;
+
+}
+
+.sotial_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sotial_text {
+    margin: 15px 0;
+}
+
+.play_store {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img_play_store {}
+
+
+
+
+
+
+
+
+
+
+/*  */
