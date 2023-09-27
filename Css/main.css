@@ -5,16 +5,111 @@
 
 
 
+
+
+
+
+
+/*  start main */
+
+.main {
+    max-width: 1200px;
+    padding: 0 30px;
+}
+
+.main_form {
+    position: relative;
+    margin: 60px 0;
+    background-color: #dfd7f94a;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    padding: 80px !important;
+    border-radius: 80px 20px 20px;
+}
+
+
+.form_logo {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+.bag_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -10;
+    height: 230px;
+    border-radius: 20px;
+
+}
+
+.bag_left {
+    position: absolute;
+    bottom: 0px;
+    left: -50px;
+    height: 250px;
+    z-index: -20;
+    opacity: 0.1;
+    border-radius: 20px;
+
+}
+
+
+.main_form .title {
+    color: var(--color-primary);
+    font-size: var(--size-title);
+    text-align: center;
+    line-height: 30px;
+}
+
+.form_container {
+    /* background-color: red; */
+    width: 470px !important;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin: 40px auto;
+}
+
+
+.email_user {
+    width: 100%;
+    padding: 12px 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: var(--color-primary);
+}
+
+.btn_form {
+    padding: 10px 30px;
+    background-color: #FF946D;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+
+
+
+/* Start Footer */
 Footer {
     padding: 3rem !important;
     /* background-color: yellow; */
-
+    max-width: 1200px !important;
 }
 
 .Footer_top {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    flex-wrap: wrap;
 }
 
 .Footer_copy {
@@ -33,7 +128,7 @@ Footer {
 
 .text {
     color: var(--color-primary);
-    font-size: var(--size-text);
+    font-size: 0.8rem;
     margin-top: 20px;
 }
 
@@ -83,10 +178,72 @@ Footer {
 
 
 
+/* End Footer */
 
 
 
+@media screen and (max-width:769px) {
+    body {
+        padding: 0 10px;
+    }
+
+    Footer {
+        padding: 20px 0px !important;
+    }
+
+    .Footer_top {
+        flex-direction: column !important;
+    }
+
+    .sotial {
+        flex-basis: 0 !important;
+    }
+
+    .form_container {
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .bag_right {
+        height: 150px !important;
+        border-radius: 20px;
+    }
+
+    .bag_left {
+        height: 200px !important;
+        border-radius: 30px;
+    }
+
+    .main_form .title {
+        font-size: 1.15rem !important;
+    }
+
+    .form_container {
+        width: 100% !important;
+        flex-direction: column;
+        align-items: stretch;
+        row-gap: 10px;
+    }
+
+    .email_user {
+        border-radius: 5px;
+    }
+
+    .main_form {
+        padding: 60px 10px !important;
+    }
 
 
+    .btn_form {
+        border-radius: 5px;
+    }
 
-/*  */
+    .main {
+        padding: 20px !important;
+    }
+}
