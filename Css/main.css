@@ -14,8 +14,69 @@
 
 .main {
     max-width: 1200px;
+    margin: 0 auto;
     padding: 0 30px;
 }
+
+/* Start Destination */
+
+.main_Destinations {
+    margin: 50px 0;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.title {
+    color: var(--color-primary);
+    font-size: var(--size-text);
+}
+
+.sub_title {
+    color: var(--color-black);
+    font-size: 1.9rem;
+    margin: 30px 0;
+}
+
+.Destination_cards {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.Destination_card {
+    /* background-color: yellow; */
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px .5px rgba(0, 0, 0, 0.307);
+}
+
+.card_img {
+    width: 100%;
+    max-height: 300px;
+}
+
+.card_body {
+    /* background-color: blue; */
+    text-align: left;
+    padding: 20px 0;
+    color: var(--color-primary);
+    font-size: var(--size-text);
+}
+
+.body_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body_time {
+    margin-top: 15px;
+}
+
+
+
+
+/* Start Form */
 
 .main_form {
     position: relative;
@@ -103,6 +164,7 @@ Footer {
     padding: 3rem !important;
     /* background-color: yellow; */
     max-width: 1200px !important;
+    margin: 0 auto;
 }
 
 .Footer_top {
@@ -175,6 +237,11 @@ Footer {
 
 .img_play_store {}
 
+.sotial_icon {
+    color: #000 !important;
+    font-size: var(--size-title) !important;
+}
+
 
 
 
@@ -244,6 +311,10 @@ Footer {
     }
 
     .main {
-        padding: 20px !important;
+        padding: 0 10px !important;
+    }
+
+    svg#Group_77 {
+        width: 60px !important;
     }
 }
