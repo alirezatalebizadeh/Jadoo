@@ -3,18 +3,26 @@
 
 
 
+
 /* Start Header */
 header {
     /* height: 90vh; */
     position: relative;
-    overflow: hidden;
+    overflow: hidden !important;
 }
+
+
+/* * {
+    box-sizing: border-box !important;
+    border: 1px solid red !important;
+} */
 
 .top_background {
     position: absolute;
     right: -100px;
     z-index: -100;
     top: -280px;
+    /* display: none; */
 }
 
 .img_background_header {
@@ -40,7 +48,7 @@ header {
 
 .main {
     max-width: 1200px;
-    margin: 100px auto;
+    margin: 80px auto !important;
     padding: 0 10px;
     position: relative;
 }
@@ -528,6 +536,11 @@ Footer {
     /* .main {
         margin: 500px 0 !important;
     } */
+    .top_background {
+        right: 0;
+        top: -200px;
+        /* display: none !important; */
+    }
 }
 
 
@@ -585,6 +598,6 @@ Footer {
     }
 
     /* .main {
-        margin: 400px 0 !important;
+        margin: 50px 10px !important;
     } */
 }
