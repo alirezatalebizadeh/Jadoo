@@ -127,7 +127,7 @@ header {
 /* ! Option section */
 
 .main_option {
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .bg_img {
@@ -278,7 +278,7 @@ header {
     /* max-height: 100px; */
 }
 
-.swiper-slide {
+.main_brands_slider .swiper-slide {
     text-align:
         center;
     background: #fff;
@@ -294,16 +294,94 @@ header {
 
 }
 
-.swiper-slide img {
+/* .swiper-slide img {
     display: block;
     height: 100%;
     object-fit: fill;
     width: 100% !important;
+} */
+
+
+
+/* mini slider */
+.Testimonials {
+    margin: 80px 0 !important;
 }
 
+.miniSlider {
+    padding: 20px 0;
+    /* background-color: yellow; */
+}
 
+.miniSlider .swiper-slide {}
 
+.Testimonials .swiper-pagination {
+    text-align: left;
+}
 
+.miniSlider_title {
+    color: var(--color-primary);
+}
+
+.miniSlider_sub_title {
+    color:
+        var(--color-black);
+    font-size: 2rem;
+    line-height: 35px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.miniSlider .swiper-slide {
+
+    margin-top: 90px;
+}
+
+/* ! vertical swiper */
+
+.vertical-swiper {
+    max-height: 350px;
+    /* background-color: rgba(226, 202, 202, 0.285); */
+}
+
+.message_card {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.237);
+    margin: 50px 20px;
+    border-radius: 20px;
+}
+
+.message_img {
+    width: 50px !important;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+.message_container {
+    padding: 20px 40px;
+    background-color: #fff;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.message_text {
+    color: var(--color-primary);
+    line-height: 25px;
+
+}
+
+.message_name {
+    color: var(--color-black);
+    font-size: var(--size-text);
+    margin: 20px 0;
+}
+
+.message_location {
+    color: var(--color-primary);
+
+}
 
 /* !Start Form */
 
@@ -537,9 +615,26 @@ Footer {
         margin: 500px 0 !important;
     } */
     .top_background {
+
         right: 0;
-        top: -200px;
+        top: -600px;
         /* display: none !important; */
+    }
+
+    .Testimonials .swiper-pagination {
+        text-align: center !important;
+    }
+
+    .miniSlider_title {
+        text-align: center !important;
+    }
+
+    .miniSlider_sub_title {
+        text-align: center !important;
+    }
+
+    .Testimonials {
+        margin: 50px 0 !important;
     }
 }
 
