@@ -3,10 +3,36 @@
 
 
 
+/* Start Header */
+header {
+    /* height: 90vh; */
+    position: relative;
+    overflow: hidden;
+}
 
+.top_background {
+    position: absolute;
+    right: -100px;
+    z-index: -100;
+    top: -280px;
+}
 
+.img_background_header {
+    max-width: 600px;
+}
 
+.icon_play_video {
+    color: #fff;
+    background-color: #FF946D;
+    clip-path: circle();
+    padding: 15px;
+    font-size: .8rem;
+}
 
+.header_title {
+    color: #DF6951;
+    text-transform: capitalize;
+}
 
 
 
@@ -14,8 +40,8 @@
 
 .main {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 30px;
+    margin: 100px auto;
+    padding: 0 10px;
     position: relative;
 }
 
@@ -498,6 +524,10 @@ Footer {
     .mini_box {
         left: 200px;
     }
+
+    /* .main {
+        margin: 500px 0 !important;
+    } */
 }
 
 
@@ -554,4 +584,7 @@ Footer {
         left: 35% !important;
     }
 
+    /* .main {
+        margin: 400px 0 !important;
+    } */
 }
