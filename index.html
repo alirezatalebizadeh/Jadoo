@@ -27,73 +27,58 @@
     <title>Jadoo</title>
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-      <div class="container-fluid" style="background-color: red;">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-          <button
-            type="button"
-            class="navbar-toggle"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand page-scroll" href="#page-top"
-            >Celine Is Awesome</a
-          >
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="hidden active">
-              <a href="#page-top"></a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand navbar-logo" href="#">
+          <h1>Jadoo</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="" data-scroll-nav="0">Desitnations</a>
             </li>
-            <li class="">
-              <a class="page-scroll" href="#services">Services</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="1">Hotels</a>
             </li>
-            <li class="">
-              <a class="page-scroll" href="#portfolio">Portfolio</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="2">Flights</a>
             </li>
-            <li class="">
-              <a class="page-scroll" href="#about">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="3">Bookings</a>
             </li>
-            <li class="">
-              <a class="page-scroll" href="#team">Team</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="4">Login</a>
             </li>
-            <li class="">
-              <a class="page-scroll" href="#contact">Contact</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="5">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="6">Contact</a>
             </li>
           </ul>
         </div>
-        <!-- /.navbar-collapse -->
       </div>
-      <!-- /.container-fluid -->
     </nav>
     <!-- Header -->
 
     <div class="top_background">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="750px"
-        height="100%"
-        viewBox="0 0 787.796 814.255"
-      >
-        <path
-          id="Decore"
-          d="M40.214,356.808c52.535,80.251,160,52.38,187.048,89.706s-17.685,135.774,60.338,173.1,35.37,108.712,129.518,153.037c75.318,35.46,257.822,42.458,339.66,41.525l40.052-560.826L729.729,0,22.842,94.249C5.33,151.482-1.815,292.607,40.214,356.808Z"
-          transform="translate(-9.032)"
-          fill="#fff1da"
-        />
-      </svg>
+    <img src="./Images/header-background (1).png" alt="">
     </div>
 
     <header>
-      <div class="container-fluid mt-5">
+      <div class="container mt-5">
         <div class="row">
           <div
             class="col-12 col-md-6 d-flex flex-column justify-content-evenly p-md-5"
@@ -114,8 +99,8 @@
               west hard for the.
             </p>
             <div class="d-flex align-items-center gap-4">
-              <button class="btn btn-warning">Find out more</button>
-              <button class="btn d-flex align-items-center gap-3">
+              <button class="btn btn-warning text-white">Find out more</button>
+              <button class="btn d-flex align-items-center gap-3 text-secondary">
                 <i class="fa fa-play icon_play_video"></i> Play Demo
               </button>
             </div>
@@ -1798,6 +1783,9 @@
     <!-- !bootstrap -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <!-- ! swiper  js-->
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
 

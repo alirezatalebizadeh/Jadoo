@@ -75,3 +75,17 @@ new Swiper(".vertical-swiper", {
 });
 
 
+
+//! to show and hidden navbar
+document.querySelector('.navbar-toggler').addEventListener('click', () => {
+    document.querySelector('.navbar-collapse').classList.toggle('show')
+})
+
+//! change background with scroll
+window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 0) {
+        document.querySelector('.navbar').style.backgroundColor = 'rgb(218 213 213)'
+    } else {
+        document.querySelector('.navbar').style.backgroundColor = 'transparent'
+    }
+})
