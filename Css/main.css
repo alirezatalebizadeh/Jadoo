@@ -97,6 +97,12 @@
     position: relative;
 }
 
+.navbar-nav .dropdown-menu {
+    position: static;
+    width: 185px !important;
+    margin: 0 auto !important;
+}
+
 /* *{
     box-sizing: border-box !important;
     border:  1px solid red !important;

@@ -91,14 +91,24 @@ window.addEventListener('scroll', () => {
 })
 
 
-document.querySelector('.dropdown').addEventListener('click', (event) => {
+let dropdown = document.querySelector('.dropdown')
+
+dropdown.addEventListener('click', (event) => {
     event.target.classList.toggle('show')
 
     document.querySelectorAll('.dropdown-item').forEach(link => {
         link.addEventListener('click', (e) => {
             document.querySelector('.dropdown-toggle').textContent = e.target.innerHTML
-            console.log(e.target.innerHTML);
         })
     })
     document.querySelector('.dropdown-menu').classList.toggle('show')
+})
+
+document.body.addEventListener('click', (event) => {
+    if (event.target.tagName !== 'A') {
+        console.log(event.target.tagName);
+
+        dropdown.classList.remove('show')
+        document.querySelector('.dropdown-menu').classList.remove('show')
+    }
 })
