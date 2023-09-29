@@ -89,3 +89,16 @@ window.addEventListener('scroll', () => {
         document.querySelector('.navbar').style.backgroundColor = 'transparent'
     }
 })
+
+
+document.querySelector('.dropdown').addEventListener('click', (event) => {
+    event.target.classList.toggle('show')
+
+    document.querySelectorAll('.dropdown-item').forEach(link => {
+        link.addEventListener('click', (e) => {
+            document.querySelector('.dropdown-toggle').textContent = e.target.innerHTML
+            console.log(e.target.innerHTML);
+        })
+    })
+    document.querySelector('.dropdown-menu').classList.toggle('show')
+})
