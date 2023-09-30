@@ -8,52 +8,45 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "./Images/jadoo72.png",
+      "src": "./images/jadoo72.png",
       "type": "image/png",
       "sizes": "72x72",
       "purpose": "maskable"
     },
     {
-      "src": "/Images/jadoo96.png",
+      "src": "/images/jadoo96.png",
       "type": "image/png",
-      "sizes": "96x96",
-      "purpose": "maskable"
+      "sizes": "96x96"
     },
     {
-      "src": "/Images/jadoo126.png",
+      "src": "/images/jadoo126.png",
       "type": "image/png",
-      "sizes": "128x128",
-      "purpose": "maskable"
+      "sizes": "128x128"
     },
     {
-      "src": "/Images/jadoo144.png",
+      "src": "/images/jadoo144.png",
       "type": "image/png",
-      "sizes": "144x144",
-      "purpose": "maskable"
+      "sizes": "144x144"
     },
     {
-      "src": "/Images/jadoo152.png",
+      "src": "/images/jadoo152.png",
       "type": "image/png",
-      "sizes": "152x152",
-      "purpose": "maskable"
+      "sizes": "152x152"
     },
     {
-      "src": "/Images/jadoo196.png",
+      "src": "/images/jadoo196.png",
       "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "maskable"
+      "sizes": "192x192"
     },
     {
-      "src": "/Images/jadoo384.png",
+      "src": "/images/jadoo384.png",
       "type": "image/png",
-      "sizes": "384x384",
-      "purpose": "maskable"
+      "sizes": "384x384"
     },
     {
-      "src": "/Images/jadoo512.png",
+      "src": "/images/jadoo512.png",
       "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "maskable"
+      "sizes": "512x512"
     }
   ]
 }
