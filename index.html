@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./Images/jadoo96" type="image/png" />
+
     <!-- ! Bootstrap -->
     <link
       rel="stylesheet"
@@ -24,6 +26,11 @@
     <!-- ! custom css -->
     <link rel="stylesheet" href="Css/main.css" />
 
+    <link rel="manifest" href="./manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="./Images/jadoo96.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4" />
+    <meta name="theme-color" content="#FFE1C4" />
     <title>Jadoo</title>
   </head>
   <body>
@@ -47,7 +54,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#Desitnations" data-scroll-nav="0">Desitnations</a>
+              <a class="nav-link" href="#Desitnations" data-scroll-nav="0"
+                >Desitnations</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" data-scroll-nav="1">Hotels</a>
@@ -1805,6 +1814,7 @@
     <!-- ! swiper  js-->
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
 
+    <script src="./Js/app.js"></script>
     <!-- !Initialize Swiper -->
     <script src="./Js/main.js"></script>
   </body>

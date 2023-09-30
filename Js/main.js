@@ -106,8 +106,6 @@ dropdown.addEventListener('click', (event) => {
 
 document.body.addEventListener('click', (event) => {
     if (event.target.tagName !== 'A') {
-        console.log(event.target.tagName);
-
         dropdown.classList.remove('show')
         document.querySelector('.dropdown-menu').classList.remove('show')
     }
