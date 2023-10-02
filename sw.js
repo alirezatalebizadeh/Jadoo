@@ -5,9 +5,22 @@ const assets = [
     './index.html',
     './js/app.js',
     './js/main.js',
+    './node_modules/bootstrap/dist/js/bootstrap.min.js',
+    './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+    './node_modules/jquery/dist/jquery.min.js',
+    'https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js',
+    './node_modules/swiper/swiper-bundle.min.js',
     './Css/main.css',
     './Css/reset.css',
     './Css/root.css',
+    './node_modules/bootstrap/dist/css/bootstrap.min.css',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js',
+    './node_modules/swiper/swiper-bundle.min.css',
+    './Images/jadoo96.png'و
+
+
+
 ];
 
 // cache size limit function
