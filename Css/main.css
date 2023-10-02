@@ -48,8 +48,15 @@
 .navbar .nav-link {
     position: relative;
     padding: 0;
-    font-family: 'Lato', sans-serif;
     font-family: 'Playfair Display', serif;
+}
+.accordion-body{
+    font-family: 'Lato', sans-serif;
+
+}
+
+.btn {
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar .navbar-toggler {
